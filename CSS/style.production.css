@@ -259,6 +259,17 @@ button:focus {
   margin-left: 15px;
 }
 
+.about {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about_item {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .about__item-list {
   list-style-type: none;
 }
