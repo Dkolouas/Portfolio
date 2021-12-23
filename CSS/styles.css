@@ -286,9 +286,9 @@ button:focus,
   background-color: var(--primary-color);
 }
 
-#about-picture: {
-  max-width: 200px;
-  height: auto;
+#about-picture {
+  transform: scale(0.5);
+  transform-Box: fill-box;
 }
 
 @media all and (min-width: 500px) and (max-width: 750px) {

@@ -344,9 +344,10 @@ button:focus {
   background-color: #fff;
 }
 
-#about-picture: {
-  max-width: 200px;
-  height: auto;
+#about-picture {
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5);
+  transform-Box: fill-box;
 }
 
 @media all and (min-width: 500px) and (max-width: 750px) {
