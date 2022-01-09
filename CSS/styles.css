@@ -74,7 +74,7 @@ a:active {
   color: var(--secondary-color);
 }
 
-input, texture, select {
+input: texture, select {
   font-family: var(--input-font);
 }
 
